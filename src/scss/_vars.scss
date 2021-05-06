@@ -1,5 +1,32 @@
 // COLORS
 :root {
+  //цвета
   --color-black: #000;
   --color-white: #fff;
+  --color-main: #444b58;
+  --color-main-hover: #31343c;
+  --color--eastbay: #484283;
+  --color--accent: #f14f4f;
+  --color--accent-hover: #cc4949;
+  --color--border: rgba(255, 255, 255, 0.5);
+  --color-bg: #fff4ee;
+  --color-cameo: #dbbba9;
+  --color-grey: #b2b5bb;
+
+  //отступы
+  --small-offset: 10px;
+  --grid-gap: 20px;
+  --main-offset: 40px;
+  --second-offset: 20px;
+  --big-offset: 60px;
+
+  //шрифты
+  --font-family: "Intro", sans-serif;
+  --middle-high-bold: 700 30px / 140% var(--font-family);
+  --prehigh-book: 400 24px / 24px var(--font-family);
+  --prehigh-regular: 600 20px / 20px var(--font-family);
+  --middle-book: 400 16px / 140% var(--font-family);
+  --middle-regular: 600 16px / 140% var(--font-family);
+  --small-book: 400 9px / 140% var(--font-family);
+
 }

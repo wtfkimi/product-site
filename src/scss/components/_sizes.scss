@@ -1,0 +1,23 @@
+.sizes-table {
+
+  border-radius: 4px;
+  //overflow: hidden;
+  width: 100%;
+  border-collapse: collapse;
+
+  caption {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+    font: var(--middle-book);
+    text-align: center;
+    color: var(--color-main);
+  }
+  td {
+    padding: 17px 5px;
+    text-align: center;
+    height: 80px;
+    width: 57px;
+    border: 1px solid var(--color-cameo);
+  }
+}

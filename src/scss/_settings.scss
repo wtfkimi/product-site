@@ -10,7 +10,7 @@ html {
 
 body {
   margin: 0;
-  font-family: "asd", sans-serif;
+  font-family: "Intro", sans-serif;
   background-color: var(--color-white);
 }
 
@@ -22,9 +22,10 @@ a {
   text-decoration: none;
 }
 
-ul {
+.list-reset {
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 
 .is-outer {
@@ -54,6 +55,7 @@ ul {
 
 .btn-reset {
   border: none;
+  padding: 0;
   background: transparent;
   cursor: pointer;
 }
@@ -61,9 +63,70 @@ ul {
 .container {
   margin: 0 auto;
   padding: 0 15px;
-  max-width: 1200px;
+  max-width: 1210px;
 }
 
 .js-focus-visible :focus:not(.focus-visible) {
   outline: none;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: var(--grid-gap);
+
+}
+
+.btn {
+  border-radius: 4px;
+  padding: 22px 47px;
+  font: var(--middle-regular);
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  &--primary {
+    color: var(--color-white);
+    background-color: var(--color--accent);
+    &:hover {
+      background-color: var(--color--accent-hover);
+    }
+  }
+
+  &--secondary {
+    color: var(--color-white);
+    background-color: var(--color-main);
+    &:hover {
+      background-color: var(--color-main-hover);
+    }
+  }
+}
+
+.title {
+  margin: 0;
+  margin-bottom: var(--main-offset);
+  font: var(--middle-high-bold);
+  color: var(--color-main);
+}
+
+@import "mixins";
+.custom-checkbox {
+  @include custom-checkbox;
+
+  &__content {
+    font: var(--middle-book);
+    color: var(--color-main);
+    padding-left: 35px;
+    &::before {
+     border-color: var(--color-cameo);
+      top: -3px;
+      width: 24px;
+      height: 24px;
+      border-radius: 4px;
+    }
+    &::after {
+      top: -3px;
+      width: 24px;
+      height: 24px;
+      background-image: url("../img/check.svg");
+      background-size: 15px 12px;
+    }
+  }
 }

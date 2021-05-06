@@ -1,0 +1,395 @@
+<section class="catalog">
+  <div class="container catalog__container">
+    <h2 class="title catalog__title">Каталог</h2>
+
+    <div class="catalog__content grid">
+      <div class="catalog__left">
+        <div class="catalog-filters">
+          <h3 class="catalog__subtitle">Подбор по&nbsp;параметрам</h3>
+
+          <!-- Catalog properties -->
+          <div class="catalog__prop">
+            <strong class="catalog__caption">Цена, грн</strong>
+            <div class="catalog-price catalog__prop-inner">
+              <div class="catalog-price__wrapper">
+                <input type="text" class="catalog-price__input" id="input-0">
+                <input type="text" class="catalog-price__input" id="input-1">
+              </div>
+
+              <div class="catalog-price__element" id="range-slider"></div>
+            </div>
+          </div>
+
+          <div class="catalog__prop">
+            <strong class="catalog__caption">Пол</strong>
+            <div class="catalog__prop-inner catalog__prop-checkboxes">
+              <label class="custom-checkbox">
+                <input type="checkbox" class="custom-checkbox__field">
+                <span class="custom-checkbox__content">Мужской</span>
+              </label>
+              <label class="custom-checkbox">
+                <input type="checkbox" class="custom-checkbox__field">
+                <span class="custom-checkbox__content">Женский</span>
+              </label>
+            </div>
+          </div>
+
+          <div class="catalog__prop">
+            <strong class="catalog__caption">Возраст</strong>
+            <div class="catalog__prop-inner">
+              <table class="sizes-table">
+                <caption>Таблица Возрастов</caption>
+                <tbody>
+                <tr>
+                  <td>10+</td>
+                  <td>18+</td>
+                  <td>20+</td>
+                </tr>
+                <tr>
+                  <td>25+</td>
+                  <td>35+</td>
+                  <td>All</td>
+                </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="catalog-filters__btns">
+            <button class="btn btn-reset catalog__apply btn--secondary">Применить</button>
+            <button class="btn-reset catalog__reset">Сбросить</button>
+          </div>
+        </div>
+      </div>
+      <div class="catalog__grid">
+        <ul class="catalog-list list-reset grid">
+        <!--Items soap-->
+          <li class="catalog-list__item">
+            <article class="product">
+              <div class="product__image">
+                <img src="../img/product-image.jpg" alt="Продукт 1">
+                <div class="product__btns">
+                  <button class="btn-reset product__btn" aria-label="Показать информацию о товаре">
+                    <svg>
+                      <use xlink:href="img/sprite.svg#eye"></use>
+                    </svg>
+                  </button>
+                  <button class="btn-reset product__btn" aria-label="Добавить товар в корзину">
+                    <svg>
+                      <use xlink:href="img/sprite.svg#cart"></use>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <h3 class="product__title">Мандариновое мыло-мочалка от Scant Gallery Elegant</h3>
+              <span class="product__price">55 грн</span>
+              <div class="box">
+                <label for="weight0" class="product__title">Выберите вес</label>
+                <select name="weight" id="weight0">
+                  <option value="40">40</option>
+                  <option value="80">80</option>
+                  <option value="120">120</option>
+                  <option value="160">160</option>
+                  <option value="200">200</option>
+                  <option value="250">250</option>
+                  <option value="300">300</option>
+                  <option value="350">350</option>
+                  <option value="400">400</option>
+                </select>
+              </div>
+            </article>
+          </li>
+
+          <li class="catalog-list__item">
+            <article class="product">
+              <div class="product__image">
+                <img src="../img/product-image.jpg" alt="Продукт 1">
+                <div class="product__btns">
+                  <button class="btn-reset product__btn" aria-label="Показать информацию о товаре">
+                    <svg>
+                      <use xlink:href="img/sprite.svg#eye"></use>
+                    </svg>
+                  </button>
+                  <button class="btn-reset product__btn" aria-label="Добавить товар в корзину">
+                    <svg>
+                      <use xlink:href="img/sprite.svg#cart"></use>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <h3 class="product__title">Мандариновое мыло-мочалка от Scant Gallery Elegant</h3>
+              <span class="product__price">55 грн</span>
+              <div class="box">
+                <label for="weight1" class="product__title">Выберите вес</label>
+                <select name="weight" id="weight1">
+                  <option value="40">40</option>
+                  <option value="80">80</option>
+                  <option value="120">120</option>
+                  <option value="160">160</option>
+                  <option value="200">200</option>
+                  <option value="250">250</option>
+                  <option value="300">300</option>
+                  <option value="350">350</option>
+                  <option value="400">400</option>
+                </select>
+              </div>
+            </article>
+          </li>
+
+          <li class="catalog-list__item">
+            <article class="product">
+              <div class="product__image">
+                <img src="../img/product-image.jpg" alt="Продукт 1">
+                <div class="product__btns">
+                  <button class="btn-reset product__btn" aria-label="Показать информацию о товаре">
+                    <svg>
+                      <use xlink:href="img/sprite.svg#eye"></use>
+                    </svg>
+                  </button>
+                  <button class="btn-reset product__btn" aria-label="Добавить товар в корзину">
+                    <svg>
+                      <use xlink:href="img/sprite.svg#cart"></use>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <h3 class="product__title">Мандариновое мыло-мочалка от Scant Gallery Elegant</h3>
+              <span class="product__price">55 грн</span>
+              <div class="box">
+                <label for="weight2" class="product__title">Выберите вес</label>
+                <select name="weight" id="weight2">
+                  <option value="40">40</option>
+                  <option value="80">80</option>
+                  <option value="120">120</option>
+                  <option value="160">160</option>
+                  <option value="200">200</option>
+                  <option value="250">250</option>
+                  <option value="300">300</option>
+                  <option value="350">350</option>
+                  <option value="400">400</option>
+                </select>
+              </div>
+            </article>
+          </li>
+
+          <li class="catalog-list__item">
+            <article class="product">
+              <div class="product__image">
+                <img src="../img/product-image.jpg" alt="Продукт 1">
+                <div class="product__btns">
+                  <button class="btn-reset product__btn" aria-label="Показать информацию о товаре">
+                    <svg>
+                      <use xlink:href="img/sprite.svg#eye"></use>
+                    </svg>
+                  </button>
+                  <button class="btn-reset product__btn" aria-label="Добавить товар в корзину">
+                    <svg>
+                      <use xlink:href="img/sprite.svg#cart"></use>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <h3 class="product__title">Мандариновое мыло-мочалка от Scant Gallery Elegant</h3>
+              <span class="product__price">55 грн</span>
+              <div class="box">
+                <label for="weight3" class="product__title">Выберите вес</label>
+                <select name="weight" id="weight3">
+                  <option value="40">40</option>
+                  <option value="80">80</option>
+                  <option value="120">120</option>
+                  <option value="160">160</option>
+                  <option value="200">200</option>
+                  <option value="250">250</option>
+                  <option value="300">300</option>
+                  <option value="350">350</option>
+                  <option value="400">400</option>
+                </select>
+              </div>
+            </article>
+          </li>
+
+          <li class="catalog-list__item">
+            <article class="product">
+              <div class="product__image">
+                <img src="../img/product-image.jpg" alt="Продукт 1">
+                <div class="product__btns">
+                  <button class="btn-reset product__btn" aria-label="Показать информацию о товаре">
+                    <svg>
+                      <use xlink:href="img/sprite.svg#eye"></use>
+                    </svg>
+                  </button>
+                  <button class="btn-reset product__btn" aria-label="Добавить товар в корзину">
+                    <svg>
+                      <use xlink:href="img/sprite.svg#cart"></use>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <h3 class="product__title">Мандариновое мыло-мочалка от Scant Gallery Elegant</h3>
+              <span class="product__price">55 грн</span>
+              <div class="box">
+                <label for="weight4" class="product__title">Выберите вес</label>
+                <select name="weight" id="weight4">
+                  <option value="40">40</option>
+                  <option value="80">80</option>
+                  <option value="120">120</option>
+                  <option value="160">160</option>
+                  <option value="200">200</option>
+                  <option value="250">250</option>
+                  <option value="300">300</option>
+                  <option value="350">350</option>
+                  <option value="400">400</option>
+                </select>
+              </div>
+            </article>
+          </li>
+
+          <li class="catalog-list__item">
+            <article class="product">
+              <div class="product__image">
+                <img src="../img/product-image.jpg" alt="Продукт 1">
+                <div class="product__btns">
+                  <button class="btn-reset product__btn" aria-label="Показать информацию о товаре">
+                    <svg>
+                      <use xlink:href="img/sprite.svg#eye"></use>
+                    </svg>
+                  </button>
+                  <button class="btn-reset product__btn" aria-label="Добавить товар в корзину">
+                    <svg>
+                      <use xlink:href="img/sprite.svg#cart"></use>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <h3 class="product__title">Мандариновое мыло-мочалка от Scant Gallery Elegant</h3>
+              <span class="product__price">55 грн</span>
+              <div class="box">
+                <label for="weight5" class="product__title">Выберите вес</label>
+                <select name="weight" id="weight5">
+                  <option value="40">40</option>
+                  <option value="80">80</option>
+                  <option value="120">120</option>
+                  <option value="160">160</option>
+                  <option value="200">200</option>
+                  <option value="250">250</option>
+                  <option value="300">300</option>
+                  <option value="350">350</option>
+                  <option value="400">400</option>
+                </select>
+              </div>
+            </article>
+          </li>
+
+          <li class="catalog-list__item">
+            <article class="product">
+              <div class="product__image">
+                <img src="../img/product-image.jpg" alt="Продукт 1">
+                <div class="product__btns">
+                  <button class="btn-reset product__btn" aria-label="Показать информацию о товаре">
+                    <svg>
+                      <use xlink:href="img/sprite.svg#eye"></use>
+                    </svg>
+                  </button>
+                  <button class="btn-reset product__btn" aria-label="Добавить товар в корзину">
+                    <svg>
+                      <use xlink:href="img/sprite.svg#cart"></use>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <h3 class="product__title">Мандариновое мыло-мочалка от Scant Gallery Elegant</h3>
+              <span class="product__price">55 грн</span>
+              <div class="box">
+                <label for="weight6" class="product__title">Выберите вес</label>
+                <select name="weight" id="weight6">
+                  <option value="40">40</option>
+                  <option value="80">80</option>
+                  <option value="120">120</option>
+                  <option value="160">160</option>
+                  <option value="200">200</option>
+                  <option value="250">250</option>
+                  <option value="300">300</option>
+                  <option value="350">350</option>
+                  <option value="400">400</option>
+                </select>
+              </div>
+            </article>
+          </li>
+
+          <li class="catalog-list__item">
+            <article class="product">
+              <div class="product__image">
+                <img src="../img/product-image.jpg" alt="Продукт 1">
+                <div class="product__btns">
+                  <button class="btn-reset product__btn" aria-label="Показать информацию о товаре">
+                    <svg>
+                      <use xlink:href="img/sprite.svg#eye"></use>
+                    </svg>
+                  </button>
+                  <button class="btn-reset product__btn" aria-label="Добавить товар в корзину">
+                    <svg>
+                      <use xlink:href="img/sprite.svg#cart"></use>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <h3 class="product__title">Мандариновое мыло-мочалка от Scant Gallery Elegant</h3>
+              <span class="product__price">55 грн</span>
+              <div class="box">
+                <label for="weight7" class="product__title">Выберите вес</label>
+                <select name="weight" id="weight7">
+                  <option value="40">40</option>
+                  <option value="80">80</option>
+                  <option value="120">120</option>
+                  <option value="160">160</option>
+                  <option value="200">200</option>
+                  <option value="250">250</option>
+                  <option value="300">300</option>
+                  <option value="350">350</option>
+                  <option value="400">400</option>
+                </select>
+              </div>
+            </article>
+          </li>
+
+          <li class="catalog-list__item">
+            <article class="product">
+              <div class="product__image">
+                <img src="../img/product-image.jpg" alt="Продукт 1">
+                <div class="product__btns">
+                  <button class="btn-reset product__btn" aria-label="Показать информацию о товаре">
+                    <svg>
+                      <use xlink:href="img/sprite.svg#eye"></use>
+                    </svg>
+                  </button>
+                  <button class="btn-reset product__btn" aria-label="Добавить товар в корзину">
+                    <svg>
+                      <use xlink:href="img/sprite.svg#cart"></use>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <h3 class="product__title">Мандариновое мыло-мочалка от Scant Gallery Elegant</h3>
+              <span class="product__price">55 грн</span>
+              <div class="box">
+                <label for="weight8" class="product__title">Выберите вес</label>
+                <select name="weight" id="weight8">
+                  <option value="40">40</option>
+                  <option value="80">80</option>
+                  <option value="120">120</option>
+                  <option value="160">160</option>
+                  <option value="200">200</option>
+                  <option value="250">250</option>
+                  <option value="300">300</option>
+                  <option value="350">350</option>
+                  <option value="400">400</option>
+                </select>
+              </div>
+            </article>
+          </li>
+
+        </ul>
+        <button class="catalog__more btn btn-reset btn--primary">Показать еще</button>
+      </div>
+    </div>
+  </div>
+</section>

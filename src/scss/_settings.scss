@@ -62,7 +62,7 @@ a {
 
 .container {
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 90px 15px;
   max-width: 1210px;
 }
 
@@ -97,6 +97,17 @@ a {
       background-color: var(--color-main-hover);
     }
   }
+
+  &--thirdly {
+    border: 1px solid var(--color-main);
+    padding: 13px 45px;
+    color: var(--color-main);
+    background-color: transparent;
+    &:hover {
+      color: var(--color-white);
+      background-color: var(--color-main);
+    }
+  }
 }
 
 .title {
@@ -109,6 +120,10 @@ a {
 @import "mixins";
 .custom-checkbox {
   @include custom-checkbox;
+
+  &__quiz {
+    display: flex;
+  }
 
   &__content {
     font: var(--middle-book);
@@ -129,4 +144,16 @@ a {
       background-size: 15px 12px;
     }
   }
+}
+
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: 1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
 }

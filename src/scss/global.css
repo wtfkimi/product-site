@@ -10,6 +10,7 @@
   --color-bg: #fff4ee;
   --color-cameo: #dbbba9;
   --color-grey: #b2b5bb;
+  --color-jumbo: #808080;
   --small-offset: 10px;
   --grid-gap: 20px;
   --main-offset: 40px;
@@ -124,7 +125,7 @@ a {
 
 .container {
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 90px 15px;
   max-width: 1210px;
 }
 
@@ -157,6 +158,16 @@ a {
 }
 .btn--secondary:hover {
   background-color: var(--color-main-hover);
+}
+.btn--thirdly {
+  border: 1px solid var(--color-main);
+  padding: 13px 45px;
+  color: var(--color-main);
+  background-color: transparent;
+}
+.btn--thirdly:hover {
+  color: var(--color-white);
+  background-color: var(--color-main);
 }
 
 .title {
@@ -216,6 +227,9 @@ a {
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
 }
+.custom-checkbox__quiz {
+  display: flex;
+}
 .custom-checkbox__content {
   font: var(--middle-book);
   color: var(--color-main);
@@ -234,6 +248,17 @@ a {
   height: 24px;
   background-image: url("../img/check.svg");
   background-size: 15px 12px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: 1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
 }
 
 /*# sourceMappingURL=global.css.map */

@@ -6,11 +6,12 @@
   left: 0;
   top: 0;
   width: 100%;
-  background-color: rgba(72, 66, 131, 0.7);
+
+
 
   &__container {
-    --paddings: 15px;
     position: relative;
+    --paddings: 15px;
     padding: var(--second-offset) var(--paddings);
     &::before {
       content: "";

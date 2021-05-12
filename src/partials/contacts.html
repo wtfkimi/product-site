@@ -1,10 +1,48 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Title</title>
-</head>
-<body>
+<section class="contacts">
+  <div class="container contacts__container">
+    <div class="contacts__text">
+      <h2 class="title contacts__title">Контакты</h2>
+      <address class="contacts__item">
+        <strong class="contacts__subtitle">
+          Главный офис
+          <span class="tooltip">
+            <button class="tooltip__btn btn-reset" aria-describedby="office" aria-label="Описание адреса">
+              <svg class="icons__tooltip">
+                <use xlink:href="img/sprite.svg#tooltip0"></use>
+              </svg>
+            </button>
+            <span class="tooltip__txt" role="tooltip" id="office">
+              <span class="visually-hidden">Тултип: </span>
+              Офис откроется примерно 06/12/2021
+              По&nbsp;всем вопросам пожалуйста звоните на&nbsp;номера: <br><b>+380 63&nbsp;857 13 64; +380 99&nbsp;467 13&nbsp;65.</b>
+            </span>
+          </span>
+        </strong>
+        <a href="#" class="contacts__phone">+380 63 857 13 64</a>
+        <a href="#" class="contacts__phone">+380 99 467 13 65</a>
+        <span class="contacts__address">скоро откроемся в г. Одесса</span>
 
-</body>
-</html>
+      </address>
+      <address class="contacts__item">
+        <strong class="contacts__subtitle">Отдел продаж</strong>
+        <a href="#" class="contacts__phone">+380 63 857 13 64</a>
+        <a href="#" class="contacts__phone">+380 99 467 13 65</a>
+        <span class="contacts__address">скоро откроемся в г. Одесса</span>
+      </address>
+      <div class="social">
+<!--        <li class="social__item"><a href="#" class="social__link social__link&#45;&#45;telegram" aria-label="Мы в телеграме">-->
+         <a href="#" class="">
+          <svg class="icons">
+            <use xlink:href="img/sprite.svg#social-telegram"></use>
+          </svg>
+        </a>
+        <a href="#">
+          <svg class="icons">
+            <use xlink:href="img/sprite.svg#inst-social"></use>
+          </svg>
+        </a>
+      </div>
+    </div>
+    <div class="contacts__map" id="map"></div>
+  </div>
+</section>

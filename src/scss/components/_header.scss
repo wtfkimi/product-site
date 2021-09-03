@@ -10,15 +10,17 @@
 
 
   &__container {
-    position: relative;
+    //position: relative;
+    width: 100%;
     --paddings: 15px;
     padding: var(--second-offset) var(--paddings);
+    background-color: var(--color--eastbay-rgb);
     &::before {
       content: "";
       position: absolute;
       left: 50%;
       bottom: 0;
-      width: calc(100% - (var(--paddings) * 2));
+      width: 100%;
       transform: translateX(-50%);
       height: 1px;
       background-color: var(--color--border);
@@ -30,6 +32,8 @@
     grid-column: 3 span;
   }
   &__right {
+    align-items: center;
+    padding-right: var(--big-offset);
     grid-column: 9 span;
     display: flex;
     justify-content: flex-end;

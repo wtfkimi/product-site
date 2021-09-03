@@ -11,15 +11,19 @@
     "backend": "gulp backend",
     "code": "editorconfig-checker"
   },
-  "author": "MaxGraph",
+  "author": "Viacheslav Bondariev",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.12.10",
     "@babel/preset-env": "^7.12.11",
     "babel-loader": "^8.2.2",
     "browser-sync": "^2.26.14",
+    "compression": "^1.7.4",
     "del": "^6.0.0",
+    "dotenv": "^9.0.2",
     "editorconfig-checker": "^4.0.1",
+    "express": "^4.17.1",
+    "file-system": "^2.2.2",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
     "gulp-babel": "^8.0.0",
@@ -39,9 +43,13 @@
     "gulp-svg-sprite": "^1.5.0",
     "gulp-uglify-es": "^2.0.0",
     "node-w3c-validator": "^2.0.1",
+    "spdy": "^4.0.2",
     "stylelint": "^13.9.0",
     "stylelint-declaration-block-no-ignored-properties": "^2.3.0",
     "stylelint-order": "^4.1.0",
     "stylelint-scss": "^3.18.0"
+  },
+  "dependencies": {
+    "run-sequence": "^2.2.1"
   }
 }

@@ -24,12 +24,17 @@
       @include('partials/team.html')
       @include('partials/faq.html')
       @include('partials/contacts.html')
+      @include('partials/instagram.html')
     </main>
+    @include('partials/modals.html')
     @include('partials/footer.html')
     <!-- @include('html/h1.html') пример инклуда -->
   </div>
   <script src="js/vendor.js"></script>
   <script src="js/main.js"></script>
+  <script async
+          src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap">
+  </script>
 </body>
 
 </html>
